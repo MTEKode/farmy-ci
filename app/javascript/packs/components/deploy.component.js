@@ -1,11 +1,13 @@
-class DeployController {
+class DeployCtrl {
   constructor() {
     console.log('Initializer Deploy')
   }
 }
 
-export const DeployComponent = {
+const DeployComponent = {
   bindings: {},
-  controller: DeployController,
-  template: '<p>DeployComponent</p>'
+  controller: DeployCtrl,
+  template: '<md-toolbar class="md-accent">'
 };
+
+export default DeployComponent;
