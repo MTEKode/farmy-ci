@@ -1,0 +1,11 @@
+{
+  "name": "farmy-ci",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "angular": "^1.7.5"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
